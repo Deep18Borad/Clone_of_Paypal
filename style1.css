@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #ffffff;
+    padding: 0px 48px 0px 48px;
+    margin: 0px 124px 0px 124px;
+    height: 73px;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.img1 {
+    display: inline;
+    position: absolute;
+    top: 17px;
+
+}
+
+.nav-items {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 26%;
+    top: 32px;
+    font-size: 16px;
+}
+
+.nav-element {
+    padding-inline: 21px;
+    background-color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.nav-btn {
+    position: absolute;
+    left: 82%;
+    top: 19px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.nav-btn-1 {
+    border: 1px solid #00aeff;
+    border-radius: 50px;
+    width: 81px;
+    height: 37px;
+    padding: 12px 18px;
+    font-size: 12px;
+    background-color: white;
+}
+
+.nav-btn-2 {
+    border: 1px solid #00aeff;
+    border-radius: 50px;
+    width: 81px;
+    height: 37px;
+    padding: 12px;
+    font-size: 12px;
+    background-color: #0070BA;
+    color: white;
+}
+
+.mainbody{
+    background-color: #00aeff;
+    text-align: center;
+    height: 570px;
+    width: inherit;
+    color: white;
+}
+.mainbody1{
+    background-color: #02387b;
+    text-align: center;
+    height: fit-content;
+    width: inherit;
+    margin-top: 0%;
+    color: white;
+}
+.btn{
+    background-color: #fdfefe;
+    color: #034286;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+}
+.btn1{
+    background-color: #fdfefe;
+    color: #034286;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+
+
+
+.shopnowmain{
+    display: flex;
+    padding: 40px 60px 40px 60px;
+    border-left: 40px;
+    border-right: 40px;
+    height: 356px;
+    background-color: #f5f7fa;
+}
+.shopnow{
+    font-size: larger;
+    width: 1080px;
+    margin: 0px 64px 0px 64px;
+    padding: 0px 48px 0px 48px;
+    text-align: left;
+    color: #00a8ea;
+}
+.shoptxt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+.shopnowbtn{
+    background-color: transparent;
+    color: #0070ba;
+    padding: 12px 24px;
+    border: solid;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 320px;
+}
+.shoppingimg{
+    margin-right: 180px;
+}
+
+
+
+
+
+.payitmain{
+    display: flex;
+    padding: 40px 60px 40px 60px;
+    border-left: 40px;
+    border-right: 40px;
+    height: 356px;
+    background-color: #ffffff;
+}
+.payit{
+    font-size: larger;
+    width: 1080px;
+    margin: 0px 64px 0px 64px;
+    padding: 0px 48px 0px 48px;
+    text-align: left;
+    color: #00a8ea;
+}
+.payittxt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #2c2e2f;
+}
+.linkyourcardbtn{
+    background-color: transparent;
+    color: #0070ba;
+    padding: 12px 24px;
+    border: solid;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 320px;
+}
+.payimg{
+    margin-left: 180px;
+}
+
+
+
+.findoutmain{
+    display: flex;
+    padding: 40px 60px 40px 60px;
+    border-left: 40px;
+    border-right: 40px;
+    height: 356px;
+    background-color: #f5f7fa;
+}
+.findout{
+    font-size: larger;
+    width: 1080px;
+    margin: 0px 64px 0px 64px;
+    padding: 0px 48px 0px 48px;
+    text-align: left;
+    color: #00a8ea;
+}
+.findouttxt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+.findoutbtn{
+    background-color: transparent;
+    color: #0070ba;
+    padding: 12px 24px;
+    border: solid;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 320px;
+}
+.confidence{
+    margin-right: 180px;
+}
+
+
+.checkoutmain{
+    background-color: #ffffff;
+    padding: 60px 0px 60px 0px;
+}
+.checkoutmain1{
+    margin: 0px 124px 0px 124px;
+    padding: 0px 48px 0px 48px;
+}
+.checkout{
+    text-align: center;
+    color: #00a8ea;
+    margin: 0px 93px 0px 93px;
+    padding: 0px 12px 30px 12px;
+}
+.adv{
+    color: #00a8ea;
+    margin: 0px -12px 0px -12px;
+    padding: 0px 550px 0px 550px; 
+}
+
+
+.jointheglobal{
+    background-color: #00a8ea;
+    padding: 60px 0px 60px 0px;
+    
+}
+.jtgtxt{
+    color: #ffffff;
+    text-align: center;
+}
+.signupbtn{
+    background-color: #ffffff;
+    color: #0070ba;
+    padding: 12px 24px;
+    border: transparent;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 320px;
+}
+
+.pageNum {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.pgNumBtn {
+    font-weight: 548;
+    font-size: 40px;
+    height: 66px;
+    width: 61px;
+    border-radius: 20px;
+    border: none;
+    margin: 3px;
+}
+
+
+.tandc{
+    padding: 40px 0px 40px 0px;
+}
+.tandc1{
+    margin: 0px 128px 0px 128px;
+    padding: 0px 48px 0px 48px;
+    text-align: left;
+}
+
+.footer {
+    position: relative;
+}
+
+
+.elements-1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.indiaFlag{
+    height: 40px;
+}
+
+
+.footertxt{
+    margin: 0px 124px 0px 124px;
+    padding: 0px 48px 0px 48px;
+}
